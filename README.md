@@ -4,7 +4,7 @@
 
  # Installation
 
- 'npm i PictureEffects --save'
+ 'npm i picture-decor --save'
 
  Then...
 

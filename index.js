@@ -5,9 +5,9 @@ function pictureEffects(options) {
         //image.style.boxShadow = options.shadow;
 
         if(options.shadow) {
-            image.style.shadow = "10px 10px 5px rgba(0,0,0,0.1)"
+            image.style.boxShadow = "10px 10px 5px rgba(0,0,0,0.1)"
         }else 
-            image.style.shadow = "none"
+            image.style.boxShadow = "none"
 
         if(options.padding) {
             image.style.padding = "10px"

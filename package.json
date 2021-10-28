@@ -1,0 +1,12 @@
+{
+  "name": "picture-decor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Shadow", "border", "Picture Shadow", "Picture border", "Picture Padding"],
+  "author": "Titus",
+  "license": "ISC",
+  "description": "Apply Shadow, Padding, Margin, border, blurness to you pictures"
+}

@@ -1,21 +1,24 @@
 function pictureEffects(options) {
     let images = document.querySelectorAll(".image-effects");
 
-    if(options.shadow) {
-        options.shadow = "10px 10px 5px rgba(0,0,0,0.1)"
-    }else {
-        options.shadow = "none"
-    }
+    images.forEach(image => {
+        //image.style.boxShadow = options.shadow;
 
-    if(options.padding) {
-        options.padding = "10px 10px 5px rgba(0,0,0,0.1)"
-    }else {
-        options.padding = "0px"
-    }
+        if(options.shadow) {
+            image.style.shadow = "10px 10px 5px rgba(0,0,0,0.1)"
+        }else 
+            image.style.shadow = "none"
 
-    if(options.border) {
-        options.border = "1px solid red"
-    }else {
-        options.border = "0 none"
+        if(options.padding) {
+            image.style.padding = "10px"
+        }else 
+            image.style.padding = "0px"
+        
+    
+        if(options.border) {
+            image.style.border = "1px solid red"
+        }else 
+            image.style.border = "0 none"
+        
     }
 }

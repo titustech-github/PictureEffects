@@ -4,14 +4,14 @@
 
  # Installation
 
- 'npm i picture-decor --save'
+ `npm i picturedecor --save`
 
  Then...
 
 ```
- import { PictureEffects } from 'pictureEffects';
+ import { picturedecor } from 'picturedecor';
 
- PictureEffects ({
+ picturedecor ({
      shadow: true;
      padding: true;
      border: true;
@@ -20,6 +20,6 @@
 
 # Options
 
-PictureEffects support 3 options
+picturedecor support 3 options
 
 * shadow, padding, border (default to true)

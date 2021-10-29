@@ -1,4 +1,4 @@
-function pictureEffects(options) {
+function picturedecor(options) {
     let images = document.querySelectorAll(".image-effects");
 
     images.forEach(image => {
@@ -21,4 +21,4 @@ function pictureEffects(options) {
     })
 }
 
-module.exports.pictureEffects = pictureEffects;
+module.exports.picturedecor = picturedecor;

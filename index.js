@@ -21,4 +21,6 @@ function picturedecor(options) {
     })
 }
 
-module.exports.picturedecor = picturedecor;
+//module.exports.picturedecor = picturedecor;
+
+export default picturedecor

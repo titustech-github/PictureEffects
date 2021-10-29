@@ -21,4 +21,4 @@ function pictureEffects(options) {
     })
 }
 
-module.export.pictureEffects = pictureEffects;
+module.exports.pictureEffects = pictureEffects;
